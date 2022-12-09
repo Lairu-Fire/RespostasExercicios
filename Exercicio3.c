@@ -8,7 +8,7 @@ int main()
     float salario;
     printf("Informe o seu salario: ");
     scanf("%f", &salario);
-    printf("Seu salario ajustado é: %.2f", 1.1*salario);
+    printf("Seu salario ajustado é: R$%.2f", 1.1*salario);
     
     
     return 0;
